@@ -1,3 +1,5 @@
+delete-repo
+
 ```bash
 #!/bin/bash
 
@@ -26,6 +28,8 @@ ssh-add id_rsa
 ```
 
 ---
+
+create-repo-push-readme
 
 ```bash
 #!/bin/bash
