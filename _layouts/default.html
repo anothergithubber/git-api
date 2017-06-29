@@ -12,18 +12,7 @@
   <body>
     <div class="test"> 
     </div>
-<nav class="main-nav">
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/sub-path/">Montserrat</a></li>
-    <li><a href="/long-page/">Homer</a></li>
-    <li><a href="/goggles/">Upgrade</a></li>
-    <li><a href="/git-creative/">Create</a></li>
-    <li><a href="/potato/">Potato</a></li>
-    <li><a href="/crispy-chainsaw/">Project </a></li>
-    <li><a href="https://github.com/anothergithubber/anothergithubber.github.io">GitHub </a></li>
-  </ul>
-</nav>
+    {% include main-nav.html %}
     <section class="page-header">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
